@@ -1,0 +1,60 @@
+{
+  "name": "gulp-2022",
+  "version": "1.0.0",
+  "description": "My portfolio and information about me and my lifestyle.",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build --build",
+    "zip": "gulp deployZIP --build",
+    "deploy": "gulp deployFTP --build",
+    "svgSprive": "gulp svgSpriteTask"
+  },
+  "author": "FLS",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-fonter-fix": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-pug": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-svg-sprite": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-util": "latest",
+    "gulp-version-number": "latest",
+    "gulp-webp": "latest",
+    "gulp-webp-html-nosvg": "latest",
+    "gulp-webpcss": "latest",
+    "gulp-zip": "latest",
+    "sass": "latest",
+    "swiper": "latest",
+    "vinyl-ftp": "latest",
+    "webp-converter": "2.2.3",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelina207/personal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Angelina207/personal/issues"
+  },
+  "homepage": "https://github.com/Angelina207/personal#readme"
+}
