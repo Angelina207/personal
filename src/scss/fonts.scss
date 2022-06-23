@@ -1,28 +1,30 @@
 @font-face {
-	font-family: CormorantUpright;
-	font-display: swap;
-	src: url("../fonts/CormorantUpright-Bold.woff2") format("woff2"), url("../fonts/CormorantUpright-Bold.woff") format("woff");
+	font-family: HindVadodara;
+	src: url("/fonts/HindVadodara-Bold.woff") format("woff"), url("/dist/fonts/HindVadodara-Bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
-	font-family: CormorantUpright;
-	font-display: swap;
-	src: url("../fonts/CormorantUpright-Regular.woff2") format("woff2"), url("../fonts/CormorantUpright-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: CormorantUpright;
-	font-display: swap;
-	src: url("../fonts/CormorantUpright-SemiBold.woff2") format("woff2"), url("../fonts/CormorantUpright-SemiBold.woff") format("woff");
+	font-family: HindVadodara;
+	src: url("/fonts/HindVadodara-SemiBold.woff") format("woff"), url("/dist/fonts/HindVadodara-SemiBold.woff2") format("woff2");
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
-	font-family: TTTrailers;
-	font-display: swap;
-	src: url("../fonts/TTTrailers-Regular.woff2") format("woff2"), url("../fonts/TTTrailers-Regular.woff") format("woff");
+	font-family: HindVadodara;
+	src: url("/fonts/HindVadodara-Medium.woff") format("woff"), url("/dist/fonts/HindVadodara-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: HindVadodara;
+	src: url("/fonts/HindVadodara-Regular.woff") format("woff"), url("/dist/fonts/HindVadodara-Regular.woff2") format("woff2");
 	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: HindVadodara;
+	src: url("/fonts/HindVadodara-Light.woff") format("woff"), url("/dist/fonts/HindVadodara-Light.woff2") format("woff2");
+	font-weight: 300;
 	font-style: normal;
 }

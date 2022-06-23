@@ -1,0 +1,91 @@
+header {
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0;
+    background-color: $colorDark;
+}
+.head-wrapp{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.head-logo{
+    color: $colorLight;
+    font-size: 22px;
+    font-weight: 500;
+}
+.head-logo-accent{
+    color: $colorAccent;
+}
+
+//==============
+// Burger Button
+//==============
+.burger-btn{
+    position: absolute;
+    right: 0;
+}
+.burger-lines{
+    position: relative;
+    display: block;
+    width: 33px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: $colorLight;
+}
+.burger-lines::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    right: 0;
+    display: block;
+    width: 33px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: $colorLight;
+}
+.burger-lines::after{
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    right: 0;
+    display: block;
+    width: 33px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: $colorLight;
+}
+
+//==============
+// Burger Menu
+//==============
+.burger-menu{
+    display: none;
+}
+
+//==============
+// Home Page
+//==============
+.head__home{
+
+}
+.home-title{
+    padding-top: 36px;
+    font-size: 47px;
+    line-height: 57px;
+    font-weight: 700;
+    color: $colorLight;
+}
+.home-subtitle{
+    padding: 23px 0 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $colorLight;
+}
+.home-img{
+    width: 100%;
+    margin: 0 auto;
+    height: 330px;
+    border-radius: 5px;
+}

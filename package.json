@@ -1,5 +1,5 @@
 {
-  "name": "gulp-2022",
+  "name": "web-site",
   "version": "1.0.0",
   "description": "My portfolio and information about me and my lifestyle.",
   "main": "gulpfile.js",
@@ -56,5 +56,11 @@
   "bugs": {
     "url": "https://github.com/Angelina207/personal/issues"
   },
-  "homepage": "https://github.com/Angelina207/personal#readme"
+  "homepage": "https://github.com/Angelina207/personal#readme",
+  "keywords": [
+    "personal",
+    "web",
+    "about",
+    "me"
+  ]
 }
