@@ -1,0 +1,25 @@
+.about {
+    padding-bottom: 80px;
+    background-color: $colorLightSec;
+}
+.about-text{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 56px 0 0;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    }
+    .about-text::after {
+        content: '...';
+        bottom: -10px;
+        position: absolute;
+        display: block;
+        color: $colorAccent;
+        font-size: 53px;
+    }
+    .about-text:nth-child(1) {
+        padding-top: 20px;
+    }

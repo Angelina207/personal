@@ -1,3 +1,10 @@
+.title {
+  padding-top: 80px;
+  font-size: 34px;
+  text-align: center;
+  font-weight: 600;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -195,4 +202,33 @@ header {
   margin: 0 auto;
   height: 330px;
   border-radius: 5px;
+}
+
+.about {
+  padding-bottom: 80px;
+  background-color: #e6d4ac;
+}
+
+.about-text {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 56px 0 0;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.about-text::after {
+  content: "...";
+  bottom: -10px;
+  position: absolute;
+  display: block;
+  color: #ee8a0c;
+  font-size: 53px;
+}
+
+.about-text:nth-child(1) {
+  padding-top: 20px;
 }
