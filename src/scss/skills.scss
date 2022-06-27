@@ -1,0 +1,54 @@
+.sec__skill{
+    background-color: $colorLight;
+}
+.skill-tab {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0 0;
+}
+.skill-tab::after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $colorGray;
+}
+.skill-tab-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 250ms;
+    &:hover,
+    &:focus {
+        color: $colorAccent;
+    }
+}
+.skill-tab-item:nth-child(1) {
+    padding-right: 10px;
+}
+.skill-tab-item::before ~ .skill-tab-item:focus,
+.skill-tab-item::after ~ .skill-tab-item:hover {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 2px;
+    content: '';
+    bottom: 0;
+    background-color: $colorAccent;
+}
+
+// .tab-is-active {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+//     height: 1px;
+//     background-color: $colorAccent;
+// }
