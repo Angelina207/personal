@@ -1,4 +1,4 @@
-.sec__skill{
+ .sec__skill{
     background-color: $colorLight;
 }
 .skill-tab {
@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90px;
+    width: 120px;
     height: 30px;
     font-weight: 500;
     font-size: 18px;
@@ -31,24 +31,41 @@
         color: $colorAccent;
     }
 }
-.skill-tab-item:nth-child(1) {
-    padding-right: 10px;
-}
-.skill-tab-item::before ~ .skill-tab-item:focus,
-.skill-tab-item::after ~ .skill-tab-item:hover {
-    position: absolute;
-    display: block;
-    width: 100px;
-    height: 2px;
-    content: '';
-    bottom: 0;
+.tab-is-active {
+    border-radius: 5px 5px 0 0;
     background-color: $colorAccent;
+    color: #fff;
 }
-
-// .tab-is-active {
-//     position: absolute;
-//     bottom: 0;
-//     width: 100%;
-//     height: 1px;
-//     background-color: $colorAccent;
-// }
+.skill-soft{
+    counter-reset: skill-item; 
+}
+.skill-tech{
+    counter-reset: skill-item; 
+}
+.skill-item{
+    position: relative;
+    padding: 7px 0 7px 50px;
+    border-radius: 20px 5px 5px 20px;
+    background-color: #EBEAE8FF;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.skill-item::before{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    counter-increment: skill-item;
+    content: counter(skill-item) "";
+    background-color: $colorAccent;
+    border-radius: 50%;
+    border: $colorLight 4px solid;
+    width: 30px;
+    height: 30px;
+}
+.skill-item:nth-child(odd) {
+    margin: 10px 0;
+}
